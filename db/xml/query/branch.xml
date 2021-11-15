@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Branch>
+    <FetchAll>
+        SELECT b.*, c.name FROM core_branch b INNER JOIN core_company c ON b.idCompany = c.idCompany WHERE isActive = 1;
+    </FetchAll>
+</Branch>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Branch>
+    <FetchAll>
+        SELECT * FROM core_user_role isActive = 1;
+    </FetchAll>
+</Branch>

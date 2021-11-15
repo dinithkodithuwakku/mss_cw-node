@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<User>
+    <Insert>
+        Insert into core_user set ?
+    </Insert>
+
+    <Fetch>
+        SELECT * FROM core_user;
+    </Fetch>
+
+    <FetchByUserName>
+        SELECT * FROM core_user WHERE userName = ?;
+    </FetchByUserName>
+</User>
